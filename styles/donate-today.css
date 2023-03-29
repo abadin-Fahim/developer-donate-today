@@ -7,7 +7,7 @@
     height: 669px;
     width: 1440px;
     background: linear-gradient((360deg, #121212 0%, rgba(18, 18, 18, 0) 100%));
-    
+
 }
 
 .banner-title {
@@ -157,7 +157,8 @@
     border-radius: 5px;
     padding-top: 20px;
 }
-#other-btn{
+
+#other-btn {
     position: absolute;
     margin-top: 1162px;
     margin-left: 657px;
@@ -166,7 +167,8 @@
     text-align: center;
     color: #b3b3b3;
 }
-#line{
+
+#line {
     position: absolute;
     width: 765px;
     height: 0;
@@ -174,7 +176,8 @@
     margin-top: 1200px;
     border: 1px solid #dadada;
 }
-.donate-btn{
+
+.donate-btn {
     margin-left: 640px;
     width: 160px;
     height: 56px;
@@ -188,14 +191,16 @@
     font-size: larger;
     border-color: #FF5959
 }
+
 .main-section-title {
     text-align: center;
     margin-bottom: 20px;
-    
+
     font-weight: 700px;
     font-size: 45px;
 
 }
+
 .main-section-description {
     text-align: center;
     width: 691px;
@@ -205,31 +210,36 @@
     font-size: 18px;
     color: #707070;
 }
-.donate-plan{
+
+.donate-plan {
     display: flex;
     gap: 24px;
     margin-bottom: 50px;
-    
+
 }
-.food-plan{
+
+.food-plan {
     border-radius: 5px;
-    background:  rgba(79, 157, 166, 0.1);
+    background: rgba(79, 157, 166, 0.1);
     margin-left: 110px;
     padding: 12px 22px 54px 23px;
 }
-.shelter-plan{
+
+.shelter-plan {
     border-radius: 5px;
-    background:  rgba(255, 89, 89, 0.1);
+    background: rgba(255, 89, 89, 0.1);
     padding: 12px 22px 54px 23px;
 
 }
-.education-plan{
+
+.education-plan {
     border-radius: 5px;
-    background:  rgba(233, 198, 127, 0.1);
+    background: rgba(233, 198, 127, 0.1);
     margin-right: 157px;
     padding: 12px 22px 54px 23px;
 }
-.plan-title{
+
+.plan-title {
     font-weight: 600px;
     font-size: 24px;
     color: #121212;
@@ -237,51 +247,61 @@
     margin-bottom: 16px;
 
 }
-.plan-description{
+
+.plan-description {
     font-weight: 400px;
     font-size: 16px;
     color: #707070;
 }
-.icon{
+
+.icon {
     margin: 36px 280px 0px 28px;
-   
+
 }
-.contribute-section{
+
+.contribute-section {
     display: flex;
     margin-left: 110px;
     margin-right: 98px;
     box-sizing: border-box;
 }
-.description-box-left{
+
+.description-box-left {
     margin-right: 83px;
 
 }
-.description-box-right{
+
+.description-box-right {
     margin-left: 83px;
 }
-.contribution-image1{
-    width: 630px;
-    height: 477px;
-    margin-bottom: 50px; 
-}
-.contribution-image2{
+
+.contribution-image1 {
     width: 630px;
     height: 477px;
     margin-bottom: 50px;
-    
 }
-.description-title{
+
+.contribution-image2 {
+    width: 630px;
+    height: 477px;
+    margin-bottom: 50px;
+
+}
+
+.description-title {
     font-weight: 700px;
     font-size: 45px;
 }
-.description{
+
+.description {
     text-align: justify;
     font-weight: 400px;
     font-size: 18px;
     color: #707070;
 }
-.contribute-btn{
-    
+
+.contribute-btn {
+
     align-items: center;
     padding: 16px 12px;
     background: #FF5959;
@@ -289,4 +309,90 @@
     color: #FFFFFF;
     font-size: larger;
     border-color: #FF5959;
+}
+
+.update-title {
+    text-align: center;
+    font-weight: 700px;
+    font-size: 45px;
+}
+
+.update-description {
+    text-align: center;
+    font-weight: 400px;
+    font-size: 18px;
+    width: 691px;
+    margin-bottom: 50px;
+    margin-left: 380px;
+    color: #707070;
+}
+
+.rectangle {
+    width: 750px;
+    height: 180px;
+    align-items: center;
+    margin-left: 380px;
+    margin-bottom: 50px;
+    text-align: center;
+    background: #FFF4D6;
+}
+
+.subscribe-section {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 16px 12px;
+   
+}
+
+.email-section {
+    width: 275px;
+    padding: 16px 12px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 45px;
+    text-align: left;
+    font-size: larger;
+}
+input{
+    border-style: hidden;
+    outline: none;
+    background: #D9D9D9;
+}
+
+.subscribe-btn {
+    padding: 16px 12px;
+    background: #FF5959;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: larger;
+    border-color: #FF5959;
+    margin-top: 45px;
+}
+
+.footer-section {
+    width: 1485px;
+    height: 180px;
+    background: black;
+    margin-top: 20px;
+}
+
+.quote {
+    text-align: center;
+    color: #FF5959;
+    padding-top: 40px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.motive {
+    text-align: center;
+    color: #D9DBE1;
+    padding-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+
 }
